@@ -1,0 +1,194 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{#2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+	
+	%----------HEADING-----------------
+	\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+		\textbf{\Large Cenab Batu Bora} & {Email : batu.bora389@gmail.com}\\
+		{\href{https://github.com/cenab/}{github.com/cenab}} & Mobile : +1(587)937-5193 \\
+		{\href{https://www.linkedin.com/in/cenab/}{linkedin.com/in/cenab}}\\
+	\end{tabular*}
+	
+	
+	%-----------EDUCATION-----------------
+	\section{Education}
+	\resumeSubHeadingListStart
+	\resumeSubheading
+	{University of Alberta}{Edmonton, AB}
+	{BSc Computing Science, Specialization in Software Practice}{September 2018 - June 2022 (Expected)}
+	\resumeItemListStart
+	%\resumeItem{Scholarships \& Awards}
+	%{International Student Scholarship (2017 - Present), International Advanced Placement Scholarship (2017), International Country Scholarship (2017), University of Alberta Undergraduate Scholarship (2018), Dean's Honor Roll (2018, 2019)}
+	\resumeItem{Relevant Coursework: }
+	{Introduction to Tangible Computing, Introduction to Foundations of Computation II, Practical Programming Methodology, Formal Systems and Logic in Computer Science, Introduction to File and Database Management, Algorithms I.}
+	\resumeItemListEnd
+	\resumeSubHeadingListEnd
+	
+	
+	%-----------EXPERIENCE-----------------
+	\section{Experience}
+	\resumeSubHeadingListStart
+	\resumeSubheading
+	{2live Inc.}{Edmonton, Canada}
+	{Co-founder, CTO}{March 2020 - Present}
+	%{Software Engineering Intern at Department of Artificial Intelligence and Big Data}{September 2019 - Present}
+	\resumeItemListStart
+	\resumeItem{}
+	{Succesfully designed a music focused livestreaming product for the MVP stage.}
+	%{Explored Software Defined Radio using GNU Radio on the ADALM-PLUTO platform.}
+	\resumeItem{}
+	{Built backend, frontend and livestreaming server of the platform using Google Cloud and RTMP technologies.}
+	%{Researched real time storage and processing of multiple radio bands on the Ettus X310 SDR platform.}
+	\resumeItemListEnd
+	
+	\resumeSubheading
+	{Vestel International}{Manisa, Turkey}
+	{Software Engineering Intern at Department of Artificial Intelligence and Big Data}{July 2019 - August 2019}
+	%{Software Engineering Intern at Department of Artificial Intelligence and Big Data}{September 2019 - Present}
+	\resumeItemListStart
+	\resumeItem{}
+	{Worked on new data addition to database, developed scripts to manupilate large amount of data in Python. }
+	%{Explored Software Defined Radio using GNU Radio on the ADALM-PLUTO platform.}
+	\resumeItem{}
+	{Took part of developement of photo to text translation software for consumer electronics products.}
+	%{Researched real time storage and processing of multiple radio bands on the Ettus X310 SDR platform.}
+	\resumeItemListEnd
+	\resumeSubheading
+	{Ege University}{Izmir, Turkey}
+	{Research Assistant at Department of Computer Engineering}{June 2016 - September 2016}
+	\resumeItemListStart
+	\resumeItem{}
+	{Took part in the research, development, and writing of the paper titled “the Agent-based Modeling and Simulation of the Sunn Pests and Wheat Relations”, a project I entered a competition with.}
+	\resumeItem{}
+	{Presented the paper in international conferance in International Confernace on Engineering Technology and Innovation.}
+	\resumeItemListEnd        
+	
+	\resumeSubheading
+	{Ege University}{Izmir, Turkey}
+	{Research Assistant at Department of Computer Engineering}{June 2015 - September 2015}
+	\resumeItemListStart
+	\resumeItem{}
+	{Took part in the writing and development of the paper titled “the Agent-based Modeling and Simulation of the Resistance of Bacteria to Antibiotics”}
+	%{Adapted old CLI output method to wrok asynchronously }
+	\resumeItem{}
+	{Redesigned the model to increase the accuracy of the model in Java.}
+	
+	\resumeItemListEnd
+	
+	
+	\resumeSubHeadingListEnd
+	
+	
+	%-----------PROJECTS & COMPETITIONS-----------------
+	\section{Research and Projects}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Sentiment Analysis of Amazon Reviews: }
+	{Designed and developed a script that does sentiment analysis of the Amazon reviews of a designated product using a prepared text file of word analysis gotten using Word2Vec, Gaussian NB algorithm and web-scraping.}
+	\resumeSubItem{Agent-based Modeling and Simulation of the Sunn Pest-Wheat Relation and of the Struggle: }
+	{Simulated the natural ongoing of a sunn-pest bug in a wheat field and certain conditions such as predators, pest control, humidity, weather conditions etc in Java. Research findings are also presented by me in University of Sarajevo in ICETI'17. You can find the publication  {\href{ https://www.iceti.org/sites/default/files/2017-iceti-proceeding-book-v2.pdf}{here.}}}
+	\resumeSubItem{the Agent-based Modeling and Simulation of the Resistance of Bacteria to Antibiotics: }
+	{Simulated the relationship between modeling bacterial populations and antibiotic resistance using agent-based modelling in Java. You can find the publication  {\href{ https://www.iceti.org/sites/default/files/2017-iceti-proceeding-book-v2.pdf}{here}} and its extended version, published in PEN journal, {\href{http://pen.ius.edu.ba/index.php/pen/article/view/146/156}{here.}}} 
+	\resumeSubHeadingListEnd
+	
+	
+	%--------PROGRAMMING SKILLS------------
+	\section{Skills}\vspace{-2pt}
+	\textbf{Software}{: \textit{(Proficient):} Python, Javascript, C/C++ , Linux, SQL, Node.js, Express, MongoDB, Google Cloud \\ 
+		\qquad\qquad\quad \textit{(Familiar):  }  Java, HTML, CSS, Arduino, LaTeX}\vspace{-5pt}
+	%---------EXTRACURRICULARS---------
+	\section{Leadership and Extracurriculars}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Lambda Chi Alpha Fraternity: }
+	{Serving as Vice President and Executive Board Member for 2019-2020.}
+	\resumeSubItem{Uskudar American Academy Drama Club: }
+	{Directed four different plays as the Director or Assistant director, managing casts ranging from 10-60 from 2016-2018.}
+	\resumeSubItem{Uskudar American Academy MIT Launch Club: }
+	{Co-founded and acted as an executive member from 2017-2018.}
+	
+	
+	%\resumeSubItem{Scholarships: }
+	%   {}
+	\resumeSubHeadingListEnd
+	
+	
+	%-------------------------------------------
+\end{document}
+%  \resumeSubHeadingListEnd
+
